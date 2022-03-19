@@ -3,14 +3,9 @@ import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   return (
-    <div className="flex gap-8">
-      <img
-        src="/images/profile.jpg"
-        width="200"
-        height="200"
-        className="rounded-full"
-      />
-      <div className="flex flex-1 flex-col">
+    <div className="flex flex-wrap justify-center gap-6">
+      <img src="/images/profile.jpg" className="h-52 w-52 rounded-full " />
+      <div className="flex flex-1 flex-col ">
         <div className="flex items-center justify-between border-black first-letter:border-2">
           <h1 className="mt-2 text-3xl font-bold dark:text-white">
             Son Nguyen
