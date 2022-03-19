@@ -3,7 +3,7 @@ import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   return (
-    <div className="flex flex-1 gap-8">
+    <div className="flex gap-8">
       <img
         src="/images/profile.jpg"
         width="200"
