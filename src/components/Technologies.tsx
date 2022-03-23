@@ -7,6 +7,9 @@ import {
   SiApollographql,
   SiPostgresql,
   SiMongodb,
+  SiDocker,
+  SiKubernetes,
+  SiUbuntu,
 } from "react-icons/si";
 import { ReactNode } from "react";
 
@@ -66,13 +69,29 @@ const technologies: TechnologiesList[] = [
     icons: <SiMaterialui className="text-7xl text-sky-500" />,
     description: "MaterialUI",
   },
+  {
+    icons: <SiDocker className="text-7xl text-sky-500" />,
+    description: "Docker",
+  },
+  {
+    icons: <SiKubernetes className="text-7xl text-sky-500" />,
+    description: "K8s",
+  },
+  {
+    icons: <img src="/images/pixi.png" className="w-20" />,
+    description: "PixiJS",
+  },
+  {
+    icons: <SiUbuntu className="text-7xl text-orange-500" />,
+    description: "Ubuntu",
+  },
 ];
 
 const Technologies = () => {
   return (
     <div className="mt-6">
       <h5 className="mb-1 text-2xl font-bold dark:text-white">
-        Technologies and framework that I mainly use
+        Technologies and frameworks that I mainly use
       </h5>
       <div className="around my-2 flex max-w-xl flex-wrap justify-around gap-6">
         {technologies.map((technology) => (
